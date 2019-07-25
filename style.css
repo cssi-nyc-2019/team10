@@ -1,15 +1,17 @@
 body {font-family: "Lato", sans-serif;}
 
 .tablink {
-  background-color: #555;
+  background-color:black;
   color: white;
   float: left;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
+  padding: 10px 10px;
+  font-size: 20px;
+  width: 10%;
+font-family: 'Kaushan Script', cursive;
+
 }
 
 .tablink:hover {
@@ -22,13 +24,71 @@ body {font-family: "Lato", sans-serif;}
   display: none;
   padding: 50px;
   text-align: center;
+  height: 200px;
+  width: 100%;
 }
 
+ body {
+ background-image: url("../images/ty.png");
  
+}
  
+ .Hair {font-family: 'Kaushan Script', cursive;
+font-size: 500%;
+
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+}
 
 
-#Curly {background-image:url("https://i.pinimg.com/originals/83/d1/a5/83d1a5cce36d3e2780f049272008e4ff.jpg");}
-#Coily{background-image:url("https://data.whicdn.com/images/313477907/large.jpg");}
+
+#Curly {
+  background-image:url("https://i.pinimg.com/originals/83/d1/a5/83d1a5cce36d3e2780f049272008e4ff.jpg");
+  background-size: auto;
+}
+#Coily{background-image:url("https://data.whicdn.com/images/313477907/large.jpg");
+  height: 200px;
+  width: 100%;
+}
 #Straight{background-image: url();}
 #Wavy{background-color:blue;}
+#Products {background-color:blue;}
+#Hairstyles{background-color:blue;}
+#Credits{background-color:pink}
+#Edges {background-color:pink}
+#about {background-image:"images/IMG_2435.JPG "}
+
+
+
+
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+
+
+
+
+
+
