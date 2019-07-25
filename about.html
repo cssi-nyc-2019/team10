@@ -5,9 +5,6 @@
 <img src="curly.PNG" alt="logo" class="center" style="width: 275px">
 
 
-
-/!--
-	
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,54 +12,16 @@
 </head>
 <body>
 
-<p>Click on the buttons inside the tabbed menu:</p>
 
-<div id="London" class="tabcontent">
-  <h1>London</h1>
-  <p>London is the capital city of England.</p>
-</div>
 
-<div id="Paris" class="tabcontent">
-  <h1>Paris</h1>
-  <p>Paris is the capital of France.</p> 
-</div>
 
-<div id="Tokyo" class="tabcontent">
-  <h1>Tokyo</h1>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
 
-<div id="Oslo" class="tabcontent">
-  <h1>Oslo</h1>
-  <p>Oslo is the capital of Norway.</p>
-</div>
-
-<button class="tablink" onclick="openCity('curly', this, 'pink')" id="defaultOpen">London</button>
-<button class="tablink" onclick="openCity('straight', this, 'pink')">Paris</button>
-<button class="tablink" onclick="openCity('wavy', this, 'pink')">Tokyo</button>
-<button class="tablink" onclick="openCity('coily', this, 'pink')">Oslo</button>
-
-<script>
-function openCity(cityName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(cityName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-
-}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
    
 </body>
 </html> 
+
+	
+
 
 
 
