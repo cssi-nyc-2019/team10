@@ -1,131 +1,40 @@
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Main Page</title>
+
+	<h1>Home page</h1>
+	<div id="Curly" class="tabcontent">
+  <h1>Curly</h1>
+  <p>Proteins such as keratins tend to build up unevenly in curly hair, collecting in the curve of your hair, make it curl even more.</p>
+</div>
+
+<div id="Coily" class="tabcontent">
+  <h1>Coily/kinky</h1>
+  <p>“Kinky” describes the curl pattern/type of hair, like curly or wavy and in this case, kinky hair means tightly curled hair or really tight coiled hair or hair with no curls but zigzags instead. “Coarse” or “fine” describes the thickness/texture of hair strands.</p> 
+</div>
+
+<div id="Straight" class="tabcontent">
+  <h1>Straight</h1>
+  <p>People with straight hair have symmetrical follicles that grow round hair rather than oval hair.</p>
+</div>
+
+<div id="Wavy" class="tabcontent">
+  <h1>wavy</h1>
+  <p> the texture of hair also is dependent on the shape of the hair shaft.   Follicles that are round in cross-section give rise to straight hair.   Those out of which curly hair grows are oval. .</p>
+</div>
+
+<button class="tablink" onclick="openCity('Curly', this, 'pink')" id="defaultOpen">Curly</button>
+<button class="tablink" onclick="openCity('Coily', this, 'pink')">Coily</button>
+<button class="tablink" onclick="openCity('Straight', this, 'pink')">Straight</button>
+<button class="tablink" onclick="openCity('Wavy', this, 'pink')">Wavy</button>
+
+<script src="script.js"></script>
+
 </head>
 <body>
 
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
-
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
-.container {
-  padding: 16px;
-}
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 100%;
-  }
-}
-
-</style>
 </body>
 </html>
