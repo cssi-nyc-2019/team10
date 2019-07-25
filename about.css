@@ -80,8 +80,10 @@ html {
 }
 
 
-
-
+.row {
+  display: table;
+  width: 100%;
+}
 
 
 .fa {
