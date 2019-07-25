@@ -12,6 +12,7 @@ font-size: 400%;
 
 .Meet{
 font-size: 200%;
+font-family: 'Fascinate', cursive;
 }
 
 .center {
@@ -118,18 +119,19 @@ html {
 
 /*navbar info*/
 
+<style>
 body {font-family: "Lato", sans-serif;}
 
 .tablink {
-  background-color: black;
+  background-color: #555;
   color: white;
   float: left;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 5px 5px;
-  font-size: 20px;
-  width: 150px;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
 }
 
 .tablink:hover {
@@ -144,12 +146,9 @@ body {font-family: "Lato", sans-serif;}
   text-align: center;
 }
 
-#curly {background-color:pink;}
-#straight {background-color:pink;}
-#wavy {background-color:pink;}
-#coily {background-color:pink;}
+#London {background-color:red;}
+#Paris {background-color:green;}
+#Tokyo {background-color:blue;}
+#Oslo {background-color:orange;}
 </style>
-
-
-
 
