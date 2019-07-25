@@ -1,0 +1,21 @@
+body {
+  background-color:#d2bade;
+  font-family: 'Crete Round', serif;
+}
+
+h1 {
+  color: black;
+  margin-left: 20px;
+}
+
+h2 {
+	color:#fae4d2;
+	margin-left: 20px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+}
