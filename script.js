@@ -1,3 +1,4 @@
+
 function openCity(HairtypeName,elmnt,color) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -9,6 +10,7 @@ function openCity(HairtypeName,elmnt,color) {
     tablinks[i].style.backgroundColor = "";
   }
   document.getElementById(HairtypeName).style.display = "block";
+
   elmnt.style.backgroundColor = color;
 
 }
