@@ -33,7 +33,7 @@ class Login(webapp2.RequestHandler):
 
     	)
     user.put()
-    #MainPage=jinja_current_directory.get_template("/templates/index.html")
+    #MainPage=jinja_current_directory.get_template("/templates1/index.html")
     self.response.write("Okay, cool.")
 
 class Sign_up(webapp2.RequestHandler):

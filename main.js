@@ -142,15 +142,15 @@ function loadNextQuestion () {
          <div class="summary">
             <h1>Summary</h1>
             <p>Your hair type, based on your results/your score: </p>
-            <P>13:Straight Hair<p>
-            <p>26:2a</p>
-            <p>27:2b</p>
-            <p>28:2c</p>
-            <p>29:3a</p>
-            <p>30:3b</p>
-            <p>31:3c</p>
-            <p>35:4a</p>
-            <p>36:4b</p>
+            <p>13-15:Type 1</p>
+            <p>26:Type 2a</p>
+            <p>27:Type 2b</p>
+            <p>28:Type 2c</p>
+            <p>29:Type 3a</p>
+            <p>30:Type 3b</p>
+            <p>31:Type 3c</p>
+            <p>35:Type 4a</p>
+            <p>36:Type 4b</p>
 
 
         </div>
