@@ -30,8 +30,7 @@ class Login(webapp2.RequestHandler):
     user = mainuser(
       username= self.request.get('username'),
       password= self.request.get('password'),
-
-    	)
+    )
     user.put()
     #MainPage=jinja_current_directory.get_template("/templates1/index.html")
     self.response.write("Okay, cool.")
