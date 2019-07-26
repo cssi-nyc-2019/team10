@@ -19,7 +19,7 @@ body {
 }
 
 
-.tablink {
+.button {
   background-color:black;
   color: white;
   float: left;
@@ -33,7 +33,7 @@ font-family: 'Kaushan Script', cursive;
 
 }
 
-.tablink:hover {
+.button:hover {
   background-color: #777;
 }
 
