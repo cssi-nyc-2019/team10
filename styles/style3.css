@@ -1,0 +1,94 @@
+body{
+ 
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),url(https://scontent-hkg3-2.xx.fbcdn.net/v/t1.0-9/66185138_10157779530662994_4745114279898775552_o.png?_nc_cat=102&_nc_oc=AQnjbv9GunKlJcyV7o_XBLiYpJN3wX4h4LV-06yb324AN9Z8eLW8WBa4Jn5de-dTuspOP1XYoEChFVSuPSpTiz10&_nc_ht=scontent-hkg3-2.xx&oh=1eff2a0aea0b748a1724ebc655e0c19f&oe=5DA531F8);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+    {
+      background-image: url(https://lh3.googleusercontent.com/Mi547upkbJslKf-NgiFGvWSBgltQ7vqq-HyH_9DuAs-kYYTlj5pgEs0gsoJhyzaF3ycOcQpP1_0=w2880-h1408);
+        
+    }
+  .login-page{
+    width:360px;
+    padding: 10% 0 0;
+    margin: auto;
+  }
+
+  .form{
+    position: relative;
+    z-index: 1;
+    background: rgba(255,255,255,0.5);
+    max-width: 360px;
+    margin: 0 auto 100px; 
+    padding: 45px;
+    text-align: center;
+  }
+
+.title{
+   position: relative;
+    text-align:center;
+    font-family: 'Shorelines Script Bold', cursive;
+  }
+
+
+  .form input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border:0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+  .form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0 ;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+
+  }
+
+  .form button:hover,.form button:active{
+    background: #43A047;
+
+  }
+
+  .form .message{
+    margin: 13.5px 0 0; 
+    font-size: 13px;
+  }
+  .message {font-family: "Roboto", sans-serif;
+  font-size: 13.5px;
+}
+
+  .form .message a{
+    color: rgb(247, 109, 119);
+    text-decoration: none;
+  }
+
+  .form .sign-up{
+    display: none;
+
+  }
+
+
+
+
+
+
+
+
+
+  
