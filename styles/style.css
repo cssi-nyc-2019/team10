@@ -5,9 +5,12 @@ body {
   font-weight: 100;
   line-height: 1.7rem; 
   background-image: url("../images/222.jpg");
-  background-size: 800% 800%;
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+}
+
+.bar {
+  top:100;
 }
 
 .Type{
@@ -76,7 +79,7 @@ top:0;
 
 #Curly {
   background-image:url("https://i.pinimg.com/originals/83/d1/a5/83d1a5cce36d3e2780f049272008e4ff.jpg");
-  background-size: auto;
+  background-size: fill;
 }
 #Coily{background-image:url("https://data.whicdn.com/images/313477907/large.jpg");
   height: 200px;
@@ -90,13 +93,9 @@ top:0;
 #Products {background-image:url("https://curlsunderstood.com/wp-content/uploads/2015/11/curls-understood-natural-hair-products-under-5.png");}
 #Hairstyles{background-image:url("https://i.pinimg.com/originals/b9/63/b2/b963b2f4566438e9ac20be3bfecfe666.jpg");}
 #Edges {background-image:url("https://i.pinimg.com/originals/b7/e6/da/b7e6da0aeb48537706ffe91f15c25f6b.jpg");}
-#About {background-image:url("../images/IMG_2434.JPG");
+#About {background-image:url("../images/peoplepoop.png");
 
-background-size: 50% 50%;
-   background-repeat: no-repeat;
-  
-
-
+background-size: 50%;
 
 }
 
@@ -111,19 +110,11 @@ background-size: 50% 50%;
    background-repeat: no-repeat;
    background-position: center; 
  
-
-
-
-
-
-
 }
-#About{background-color:pink}
+
 #Quiz {background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlgsBEpGoyfHUvb9V9L70pLBZO06myXSDXI6XXoN-J2ynxNb4Pog");
 background-size: 100% 100%;
 background-repeat: no-repeat;
- 
-
 }
 
 #hairifiedHeader{ 
